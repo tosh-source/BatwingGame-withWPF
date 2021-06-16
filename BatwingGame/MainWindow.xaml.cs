@@ -27,10 +27,10 @@ namespace BatwingGame
         public MainWindow()
         {
             this.InitializeComponent();
-            var wpfrenderer = new WPFRenderer();
-            this.Engine = new GameEngine();
-            this.InitializeGame();
-            this.StartGame();
+            var gameRenderer = new WPFGameRenderer(this.GameCanvas);
+            this.Engine = new GameEngine(gameRenderer);
+            this.Engine.InitializeGame();
+            this.Engine.StartGame();
 
             #region UITests
             //var rectangle = new Rectangle
@@ -49,16 +49,6 @@ namespace BatwingGame
             //    Background = Brushes.Purple
             //};
             #endregion
-        }
-
-        private void StartGame()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void InitializeGame()
-        {
-            throw new NotImplementedException();
         }
     }
 }

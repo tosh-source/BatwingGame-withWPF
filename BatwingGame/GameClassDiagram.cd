@@ -1,53 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="BatwingGame_withWPF.GameObjects.AmmunitionsObject" Collapsed="true">
-    <Position X="3.25" Y="2" Width="1.5" />
+  <Class Name="BatwingGame.Engine.GameEngine" Collapsed="true">
+    <Position X="14.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\GameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatwingGame.GameObjects.AmmunitionsObject" Collapsed="true">
+    <Position X="10" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObjects\AmmunitionsObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BatwingGame_withWPF.GameObjects.BatwingObject" Collapsed="true">
-    <Position X="5.5" Y="2" Width="1.5" />
+  <Class Name="BatwingGame.GameObjects.BatwingObject" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObjects\BatwingObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BatwingGame_withWPF.GameObjects.EnemyObject" Collapsed="true">
-    <Position X="7.75" Y="2" Width="1.5" />
+  <Class Name="BatwingGame.GameObjects.EnemyObject" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObjects\EnemyObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BatwingGame_withWPF.GameObjects.GameObject" Collapsed="true">
-    <Position X="5.5" Y="0.75" Width="1.5" />
+  <Class Name="BatwingGame.GameObjects.GameObject" Collapsed="true">
+    <Position X="10" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>GameObjects\GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BatwingGame_withWPF.Engine.GameEngine" Collapsed="true">
-    <Position X="13" Y="0.75" Width="1.5" />
+  <Class Name="BatwingGame.Renderer.WPFGameRenderer" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Engine\GameEngine.cs</FileName>
+      <FileName>Renderer\WPFRenderer.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Struct Name="BatwingGame_withWPF.GameObjects.Position" Collapsed="true">
-    <Position X="8.25" Y="0.75" Width="1.5" />
+  <Struct Name="BatwingGame.GameObjects.Position" Collapsed="true">
+    <Position X="14.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
       <FileName>GameObjects\Position.cs</FileName>
     </TypeIdentifier>
   </Struct>
-  <Struct Name="BatwingGame_withWPF.GameObjects.Size" Collapsed="true">
-    <Position X="10.25" Y="0.75" Width="1.5" />
+  <Struct Name="BatwingGame.GameObjects.Size" Collapsed="true">
+    <Position X="16.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObjects\Size.cs</FileName>
     </TypeIdentifier>
   </Struct>
+  <Interface Name="BatwingGame.Renderer.IGameRenderer" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Renderer\IGameRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
