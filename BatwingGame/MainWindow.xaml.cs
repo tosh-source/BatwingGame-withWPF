@@ -1,4 +1,5 @@
 ﻿using BatwingGame.Engine;
+using BatwingGame.Renderer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace BatwingGame
         public MainWindow()
         {
             this.InitializeComponent();
+            var wpfrenderer = new WPFRenderer();
             this.Engine = new GameEngine();
             this.InitializeGame();
             this.StartGame();

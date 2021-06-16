@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BatwingGame_withWPF.Renderer
+namespace BatwingGame.Renderer
 {
     class WPFRenderer
     {
