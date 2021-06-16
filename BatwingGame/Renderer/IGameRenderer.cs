@@ -10,7 +10,7 @@ namespace BatwingGame.Renderer
     {
         void Clear();
 
-        void Draw(params GameObject[] gameObject);
+        void Draw(params GameObject[] gameObjects);
 
     }
 }
