@@ -1,7 +1,7 @@
-﻿<Application x:Class="BatwingGame_withWPF.App"
+﻿<Application x:Class="BatwingGame.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:BatwingGame_withWPF"
+             xmlns:local="clr-namespace:BatwingGame"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

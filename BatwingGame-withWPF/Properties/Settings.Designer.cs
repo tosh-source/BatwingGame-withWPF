@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BatwingGame_withWPF.Properties
+namespace BatwingGame.Properties
 {
 
 
